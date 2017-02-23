@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Geographic Tongue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:id="@+id/GeoTongue"
+        android:layout_marginTop="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/acidflux"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/GeoTongue"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Clinical Description: Benign condition which
+presents as red patches with white or yellow wavy borders. The location, size and shape may change over time  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:id="@+id/CDescription"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/acidflux"
+        android:layout_alignLeft="@+id/causes"
+        android:layout_alignStart="@+id/causes" />
+
+    <TextView
+        android:text="Causes: Unknown "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="38dp"
+        android:id="@+id/causes"
+        android:layout_below="@+id/CDescription"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Treatment: Palliative treatment with severe symptoms- topical anesthetics- OTC orajel, anti-inflammatory creams/ rinses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:textSize="15sp"
+        android:id="@+id/treament"
+        android:layout_below="@+id/causes"
+        android:layout_alignLeft="@+id/causes"
+        android:layout_alignStart="@+id/causes" />
+</RelativeLayout>

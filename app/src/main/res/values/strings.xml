@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EmergenSeek</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="title_activity_symptom_search">SymptomSearch</string>
+    <string name="title_activity_check_box_area">CheckBoxArea</string>
+    <string name="title_activity_speak_to_dentist">SpeakToDentist</string>
+    <string name="title_activity_filtered">Filtered</string>
+</resources>

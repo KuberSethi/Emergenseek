@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.emergenseek.michael.emergenseek">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignIn"
+            android:label="@string/title_activity_sign_in"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SymptomSearch"
+            android:label="@string/title_activity_symptom_search"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CheckBoxArea"
+            android:label="@string/title_activity_check_box_area"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".QuestionFlow" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Practice" />
+        <activity
+            android:name=".SpeakToDentist"
+            android:label="@string/title_activity_speak_to_dentist"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Filter" />
+        <activity android:name=".YesOrNo"></activity>
+    </application>
+
+</manifest>
